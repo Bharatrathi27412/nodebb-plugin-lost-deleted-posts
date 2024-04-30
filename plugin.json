@@ -1,6 +1,6 @@
 {
 	"id": "nodebb-plugin-lost-deleted-posts",
-	"url": "https://github.com/NodeBB/nodebb-plugin-lost-deleted-posts",
+	"url": "https://github.com/Bharatrathi27412/nodebb-plugin-lost-deleted-posts",
 	"library": "./library.js",
 	"hooks": [
 		{

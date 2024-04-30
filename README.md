@@ -1,17 +1,13 @@
-# Quickstart Plugin for NodeBB
+# Plugin which will hide the deleted posts from the page
 
-A starter kit for quickly creating NodeBB plugins. Comes with a pre-setup LESS file, server side JS script with an `action:app.load` hook, and a client-side script. Most plugins need at least one of the above, so this ought to save you some time. For a full list of hooks have a look at our [wiki page](https://github.com/NodeBB/NodeBB/wiki/Hooks), and for more information about creating plugins please visit our [documentation portal](https://docs.nodebb.org/).
+This plugin is developed so that, admin can easily hide the deleted topics from the forum
 
-Fork this or copy it, and using your favourite text editor find and replace all instances of `nodebb-plugin-quickstart` with `nodebb-plugin-your-plugins-name`. Change the author's name in the LICENSE and package.json files.
 
-## Hello World
+## The function
 
-Really simple, just edit `static/lib/main.js` and paste in `console.log('hello world');`, and that's it!
+Really simple, it listens to the hook "filter:topics.getTopics"
 
 ## Installation
 
-    npm install nodebb-plugin-quickstart
+    npm install nodebb-plugin-lost-deleted-posts
 
-## Screenshots
-
-Don't forget to add screenshots!

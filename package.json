@@ -5,7 +5,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-plugin-lost-deleted-posts"
+    "url": "https://github.com/Bharatrathi27412/nodebb-plugin-lost-deleted-posts"
   },
   "keywords": [
     "nodebb",
@@ -31,7 +31,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/psychobunny/nodebb-plugin-lost-deleted-posts/issues"
+    "url": "https://github.com/Bharatrathi27412/nodebb-plugin-lost-deleted-posts/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
